@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My JavaScript App</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  </head>
+  <body>
+    <script>
+      (async () => {
+        let response = await fetch('/example/hello');
+
+        if (response?.ok) {
+          let result = await response.json();
+
+          document.body.innerHTML = `<div>${result?.message}</div>`;
+
+          response = await fetch('/example/save', {
+            method: 'POST',
+            headers: {
+              'Accept': 'application/json',
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+              data: {
+                datetime: new Date().toISOString(),
+                browser: window?.navigator?.userAgent || 'Unknown'
+              }
+            })
+          });
+
+          if (response?.ok) {
+            result = await response.json();
+
+            document.body.innerHTML += `<div>Timestamp & browser info saved in DSS!</div>`;
+          }
+        }
+      })();
+    </script>
+  </body>
+</html>

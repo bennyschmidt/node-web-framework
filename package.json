@@ -1,0 +1,23 @@
+{
+  "name": "node-web-framework",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node index",
+    "lint": "eslint ./src/apps --fix && eslint ./src/services --fix"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "diamond-search-and-store": "^0.3.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "node-service-library": "^1.0.7",
+    "path": "^0.12.7",
+    "socket.io": "^4.0.1"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.18.2",
+    "@babel/plugin-proposal-class-properties": "^7.17.12",
+    "@babel/preset-env": "^7.18.2"
+  }
+}

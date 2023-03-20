@@ -1,0 +1,15 @@
+# dependencies
+/node_modules
+
+# db - Uncomment the line below to commit cache
+# src/services/.dss
+
+# misc
+.DS_Store
+.env
+.env.dev
+.env.prod
+.env.local
+
+# npm
+npm-debug.log*
