@@ -8,11 +8,11 @@ A full-stack Node.js web framework. Launch a scalable microservice ecosystem in 
 
 [Getting Started](https://github.com/bennyschmidt/node-service-core#readme)
 
-## API Design
+## Architecture
 
-[node-service-library](https://github.com/bennyschmidt/node-service-library)
+[Learn More](https://github.com/bennyschmidt/node-service-library#readme)
 
-## Built-in NoSQL File Storage (optional)
+## Data Storage (optional)
 
 [DSS](https://github.com/exactchange/dss)
 
