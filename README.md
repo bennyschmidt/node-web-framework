@@ -14,7 +14,7 @@ A full-stack Node.js web framework. Launch a scalable microservice ecosystem in 
 
 ## Built-in NoSQL File Storage (optional)
 
-[Diamond Search & Store](https://github.com/exactchange/dss)
+[DSS](https://github.com/exactchange/dss)
 
 -----
 
