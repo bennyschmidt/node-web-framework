@@ -6,7 +6,7 @@ A full-stack Node.js web framework. Launch a scalable microservice ecosystem in 
 
 ## Instructions
 
-[Getting Started](https://github.com/bennyschmidt/node-service-core#readme)
+[Example Code](https://github.com/bennyschmidt/node-service-core#readme)
 
 ## Architecture
 
