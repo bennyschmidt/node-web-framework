@@ -2,7 +2,9 @@ This project was bootstraped with [`node-web-framework`](https://github.com/benn
 
 ## Node Web Framework
 
-A full-stack Node.js web framework. Launch a scalable microservice ecosystem in seconds. Supports both HTTP REST APIs & namespaced WebSocket services by default.
+A full-stack Node.js web framework: "The stuff you were gonna install anyway" + a scalable SoA setup. 
+
+Supports both HTTP REST APIs & namespaced WebSocket services by default.
 
 ## Instructions
 
