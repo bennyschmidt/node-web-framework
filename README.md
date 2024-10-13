@@ -33,7 +33,4 @@ Add an `.env` file to the root of your directory with the following scaffold:
 - [Kickflip](https://usekickflip.com)
 - [Wave](https://wave-social.vercel.app)
 - [Slow Blinks Cat Care](https://www.slowblinkscatcare.com)
-- [Eidol](https://www.exactchange.network/eidol)
-- [Dereva](https://www.exactchange.network/dereva)
-- [Reverse](https://reverse-social.vercel.app)
 - Are you enjoying `node-web-framework`? Add yourself to this `README.md` and open a [PR](https://github.com/bennyschmidt/node-web-framework/pulls)!
